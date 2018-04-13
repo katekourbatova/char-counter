@@ -1,0 +1,6 @@
+{
+  "name": "Character & Word Counter",
+  "version": "1.0",
+  "description": "Counts characters or words in highlighted text",
+  "manifest_version": 2
+}
