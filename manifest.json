@@ -15,10 +15,10 @@
   // Event pages are opened and closed as needed.
   // Unless you need your background page to run all the time,
   // prefer to use an event page.
-  "background": {
-    "scripts": ["eventPage.js"],
-    "persistent": false
-  },
+  // "background": {
+  //   "scripts": ["eventPage.js"],
+  //   "persistent": false
+  // },
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
