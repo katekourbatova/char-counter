@@ -3,15 +3,22 @@
   "version": "1.0",
   "description": "Counts characters or words in selected text",
   "manifest_version": 2,
+  // The activeTab permission gives an extension temporary access
+  // to the currently active tab when the user invokes the extension
+  // for example by clicking its browser action.
+  // Access to the tab lasts until the tab is navigated or closed.
+  "permissions": [
+    "activeTab"
+  ],
   // From https://developer.chrome.com/extensions/overview 
   // Persistent background pages are always open.
   // Event pages are opened and closed as needed.
   // Unless you need your background page to run all the time,
   // prefer to use an event page.
-  "background": {
-    "scripts": ["eventPage.js"],
-    "persistent": false
-  },
+  // "background": {
+  //   "scripts": ["eventPage.js"],
+  //   "persistent": false
+  // },
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
